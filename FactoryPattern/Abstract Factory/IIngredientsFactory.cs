@@ -2,7 +2,7 @@
 
 namespace FactoryPattern
 {
-    interface IIngredientsFactory
+    internal interface IIngredientsFactory
     {
         IDough CreateDough();
         IEnumerable<IVeggies> CreateVeggies();

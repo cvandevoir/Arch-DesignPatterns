@@ -2,7 +2,7 @@
 
 namespace TemplatePattern
 {
-    class Tea : Beverage
+    internal class Tea : Beverage
     {
         protected override void Brew()
         {

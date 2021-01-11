@@ -2,7 +2,7 @@
 
 namespace FactoryPattern
 {
-    abstract class Pizza
+    internal abstract class Pizza
     {
         public string Color;
 

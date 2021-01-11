@@ -5,7 +5,7 @@ namespace StatePattern
     public class HasQuarterState : IState
     {
         private GumballMachine Machine { get; }
-        readonly Random _random = new Random(DateTime.Now.Millisecond);
+        private readonly Random _random = new Random(DateTime.Now.Millisecond);
 
         public HasQuarterState(GumballMachine gumballMachine)
         {

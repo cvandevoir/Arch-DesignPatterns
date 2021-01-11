@@ -2,7 +2,7 @@
 
 namespace ObserverPattern
 {
-    sealed class WeatherMonitor : IObserver<Weather>
+    internal sealed class WeatherMonitor : IObserver<Weather>
     {
         private IDisposable _cancellation;
         private readonly string _name;

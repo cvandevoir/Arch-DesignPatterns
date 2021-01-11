@@ -2,7 +2,7 @@
 
 namespace TemplatePattern.Comparable
 {
-    class Person : IComparable
+    internal class Person : IComparable
     {
         public string Name { get; }
         public int Age { get; }

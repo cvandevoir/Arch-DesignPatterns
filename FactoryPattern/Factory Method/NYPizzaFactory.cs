@@ -1,6 +1,6 @@
 ﻿namespace FactoryPattern
 {
-    class NyPizzaFactory : PizzaFactory
+    internal class NyPizzaFactory : PizzaFactory
     {
         protected override Pizza Create(string type)
         {

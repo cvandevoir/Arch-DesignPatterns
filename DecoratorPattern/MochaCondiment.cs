@@ -1,8 +1,8 @@
 ﻿namespace DecoratorPattern
 {
-    class MochaCondiment : CondimentDecorator
+    internal class MochaCondiment : CondimentDecorator
     {
-        Beverage _beverage;
+        private Beverage _beverage;
 
         public MochaCondiment(Beverage beverage)
         {

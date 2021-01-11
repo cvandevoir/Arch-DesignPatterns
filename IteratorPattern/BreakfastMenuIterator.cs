@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace IteratorPattern
 {
-    class BreakfastMenuIterator : IEnumerable
+    internal class BreakfastMenuIterator : IEnumerable
     {
         private int _count = 0;
         private ArrayList _items;

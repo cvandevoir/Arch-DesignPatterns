@@ -2,7 +2,7 @@
 
 namespace Ducks
 {
-    class FlyWings : IFlyBehaviour
+    internal class FlyWings : IFlyBehaviour
     {
         public void Fly()
         {

@@ -1,6 +1,6 @@
 ﻿namespace ObserverPattern
 {
-    class Weather
+    internal class Weather
     {
         public double Pressure { get; }
 

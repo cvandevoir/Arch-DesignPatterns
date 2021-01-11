@@ -2,9 +2,9 @@
 
 namespace FactoryPattern
 {
-    static class Program
+    internal static class Program
     {
-        static void Main()
+        private static void Main()
         {
             Console.WriteLine("Yankees fan orders:");
             var yankees = new NyPizzaFactory();

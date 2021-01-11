@@ -1,6 +1,6 @@
 ﻿namespace IteratorPattern
 {
-    static class Program
+    internal static class Program
     {
         private static void Main()
         {

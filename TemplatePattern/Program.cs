@@ -6,7 +6,7 @@ namespace TemplatePattern
 {
     internal static class Program
     {
-        static void Main()
+        private static void Main()
         {
             var tea = new Tea();
             var coffee = new Coffee();

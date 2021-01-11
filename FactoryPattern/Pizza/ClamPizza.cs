@@ -2,9 +2,9 @@
 
 namespace FactoryPattern
 {
-    class ClamPizza : Pizza
+    internal class ClamPizza : Pizza
     {
-        readonly IIngredientsFactory _ingredients;
+        private readonly IIngredientsFactory _ingredients;
 
         public ClamPizza(IIngredientsFactory ing)
         {

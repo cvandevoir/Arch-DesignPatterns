@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ObserverPattern
 {
-    class WeatherSupplier : IObservable<Weather>
+    internal class WeatherSupplier : IObservable<Weather>
     {
         private readonly List<IObserver<Weather>> _observers;
         private List<Weather> Screens { get; }

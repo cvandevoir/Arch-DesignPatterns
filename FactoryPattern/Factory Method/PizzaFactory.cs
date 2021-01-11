@@ -1,6 +1,6 @@
 ﻿namespace FactoryPattern
 {
-    abstract class PizzaFactory
+    internal abstract class PizzaFactory
     {
         public Pizza Order(string type)
         {

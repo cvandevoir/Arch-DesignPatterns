@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace IteratorPattern
 {
-    class DinnerMenuIterator : IEnumerable
+    internal class DinnerMenuIterator : IEnumerable
     {
         private int _count = 0;
         private Menu[] _items;

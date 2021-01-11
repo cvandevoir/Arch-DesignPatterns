@@ -2,7 +2,7 @@
 
 namespace Ducks
 {
-    class QuackNormal : IQuackBehaviour
+    internal class QuackNormal : IQuackBehaviour
     {
         public void Quack()
         {

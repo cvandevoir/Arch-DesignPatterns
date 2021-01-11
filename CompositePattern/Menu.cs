@@ -5,7 +5,7 @@ namespace CompositePattern
 {
     public class Menu : MenuComponent
     {
-        List<MenuComponent> _components = new List<MenuComponent>();
+        private List<MenuComponent> _components = new List<MenuComponent>();
 
         public Menu(string name, string description)
         {
